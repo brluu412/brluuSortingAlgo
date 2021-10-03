@@ -5,7 +5,7 @@ package sortingAlgo;
  * 
  * 
  * BUBBLE SORT
- * time complexity: O(n^2), two for loops, each = n. Best would be O(n), assuming all is already sorted.
+ * worst time complexity: O(n^2), two for loops, each = n. Best would be O(n), assuming all is already sorted.
  * 
  * 
  */
