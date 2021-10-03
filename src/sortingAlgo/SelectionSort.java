@@ -4,8 +4,8 @@ package sortingAlgo;
  * BRIAN LUU
  * 
  * 
- * BUBBLE SORT
- * wprst time complexity: O(n^2), two for loops, each = n. Best would be O(n), assuming all is already sorted.
+ * SELECTION SORT
+ * worst time complexity: O(n^2), two for loops, each = n. Best would be O(n^2), since traversal is required twice.
  * 
  * 
  */
