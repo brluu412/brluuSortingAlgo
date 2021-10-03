@@ -10,7 +10,7 @@ package sortingAlgo;
  * 
  */
 public class SelectionSort {
-	int[] list = new int[20];
+	private int[] list = new int[20];
 
 	public SelectionSort() {
 		// fill array with random numbers from 0 to 100
@@ -23,13 +23,13 @@ public class SelectionSort {
 	// swap with the
 	public void selection(int[] list) {
 		for (int k = 0; k < list.length - 1; k++) {
-			int minimum = k;//set minimum index as current index
-			for (int j = k + 1; j < list.length; j++) {//iterate through list to find minimum
-				if (list[j] < list[minimum]) {//check if current is less than minimum, set minimum to current
+			int minimum = k;// set minimum index as current index
+			for (int j = k + 1; j < list.length; j++) {// iterate through list to find minimum
+				if (list[j] < list[minimum]) {// check if current is less than minimum, set minimum to current
 					minimum = j;
 				}
 			}
-			swap(list, k, minimum);//traversed through list, swap minimum index with current index k
+			swap(list, k, minimum);// traversed through list, swap minimum index with current index k
 		}
 	}
 

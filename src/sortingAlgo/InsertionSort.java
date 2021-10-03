@@ -10,7 +10,7 @@ package sortingAlgo;
  * 
  */
 public class InsertionSort {
-	int[] list = new int[20];
+	private int[] list = new int[20];
 
 	public InsertionSort() {
 		// fill array with random numbers from 0 to 100
